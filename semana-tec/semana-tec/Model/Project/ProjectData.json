@@ -1,0 +1,10 @@
+[
+        {
+            "id": 1,
+            "name": "Viaje a Cancun 🏖️",
+            "people": ["Juan", "Andres", "Esteban"],
+            "description": "Semana santa 2024",
+            "backgroundColor": ".blue",
+            "imageURL": ""
+        }
+]
