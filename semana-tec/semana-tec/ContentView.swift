@@ -10,13 +10,37 @@ import SwiftUI
 
 struct ContentView: View {
     @State private var projectsVM = ProjectViewModel()
+    
     var body: some View {
-        ZStack{
-            ForEach(projectsVM.projects){ item in
-                Text(item.name)
+        
+        ForEach(projectsVM.projects){ item in
+            HStack {
+                AsyncImage(url: URL(string: item.imageURL)){ image in
+                    image
+                        .resizable()
+                        .frame(width: 100, height: 100)
+                        .cornerRadius(20)
+                } placeholder: {
+                    Text("")
+                        .frame(width: 100, height: 100)
+                        .background(.gray)
+                        .opacity(0.5)
+                        .cornerRadius(20)
+                }
+
+                VStack(alignment: .leading) {
+                    Text(item.name)
+                        .font(.headline)
+                    Text(item.description)
+                        .font(.subheadline)
+                        .foregroundColor(.gray)
+                }
             }
+            .padding()
+            .background(Color.white)
+            .cornerRadius(20)
+            .shadow(radius: 1)
         }
-        .padding()
     }
 }
 
