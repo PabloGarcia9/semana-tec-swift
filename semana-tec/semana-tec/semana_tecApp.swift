@@ -11,7 +11,7 @@ import SwiftUI
 struct semana_tecApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ProjectListView()
         }
     }
 }

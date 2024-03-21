@@ -14,6 +14,9 @@
 		FB6A69C32BAB497F004BC08B /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6A69C22BAB497F004BC08B /* Project.swift */; };
 		FBBA2ED12BAB4A92001455B1 /* ProjectViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBA2ED02BAB4A92001455B1 /* ProjectViewModel.swift */; };
 		FBBA2ED32BAB4CDA001455B1 /* ProjectData.json in Resources */ = {isa = PBXBuildFile; fileRef = FBBA2ED22BAB4CDA001455B1 /* ProjectData.json */; };
+		FBBA2ED92BAB60BF001455B1 /* ProjectHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBA2ED82BAB60BF001455B1 /* ProjectHomeView.swift */; };
+		FBBA2EDB2BAC8AE3001455B1 /* ProjectRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBA2EDA2BAC8AE3001455B1 /* ProjectRow.swift */; };
+		FBBA2EDD2BAC8C09001455B1 /* ProjectDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBA2EDC2BAC8C09001455B1 /* ProjectDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +28,9 @@
 		FB6A69C22BAB497F004BC08B /* Project.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project.swift; sourceTree = "<group>"; };
 		FBBA2ED02BAB4A92001455B1 /* ProjectViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectViewModel.swift; sourceTree = "<group>"; };
 		FBBA2ED22BAB4CDA001455B1 /* ProjectData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ProjectData.json; sourceTree = "<group>"; };
+		FBBA2ED82BAB60BF001455B1 /* ProjectHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectHomeView.swift; sourceTree = "<group>"; };
+		FBBA2EDA2BAC8AE3001455B1 /* ProjectRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectRow.swift; sourceTree = "<group>"; };
+		FBBA2EDC2BAC8C09001455B1 /* ProjectDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,7 @@
 		FB13A8C52BAA00C70086365F /* semana-tec */ = {
 			isa = PBXGroup;
 			children = (
+				FBBA2ED62BAB5FAA001455B1 /* Views */,
 				FB6A69C12BAB496C004BC08B /* Model */,
 				FB13A8C62BAA00C70086365F /* semana_tecApp.swift */,
 				FB13A8C82BAA00C70086365F /* ContentView.swift */,
@@ -90,6 +97,16 @@
 				FBBA2ED22BAB4CDA001455B1 /* ProjectData.json */,
 			);
 			path = Project;
+			sourceTree = "<group>";
+		};
+		FBBA2ED62BAB5FAA001455B1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FBBA2ED82BAB60BF001455B1 /* ProjectHomeView.swift */,
+				FBBA2EDA2BAC8AE3001455B1 /* ProjectRow.swift */,
+				FBBA2EDC2BAC8C09001455B1 /* ProjectDetail.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,7 +180,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBBA2EDB2BAC8AE3001455B1 /* ProjectRow.swift in Sources */,
 				FBBA2ED12BAB4A92001455B1 /* ProjectViewModel.swift in Sources */,
+				FBBA2ED92BAB60BF001455B1 /* ProjectHomeView.swift in Sources */,
+				FBBA2EDD2BAC8C09001455B1 /* ProjectDetail.swift in Sources */,
 				FB13A8C92BAA00C70086365F /* ContentView.swift in Sources */,
 				FB13A8C72BAA00C70086365F /* semana_tecApp.swift in Sources */,
 				FB6A69C32BAB497F004BC08B /* Project.swift in Sources */,

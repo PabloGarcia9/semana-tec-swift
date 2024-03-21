@@ -8,42 +8,26 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct ProjectListView: View {
     @State private var projectsVM = ProjectViewModel()
     
     var body: some View {
-        
-        ForEach(projectsVM.projects){ item in
-            HStack {
-                AsyncImage(url: URL(string: item.imageURL)){ image in
-                    image
-                        .resizable()
-                        .frame(width: 100, height: 100)
-                        .cornerRadius(20)
-                } placeholder: {
-                    Text("")
-                        .frame(width: 100, height: 100)
-                        .background(.gray)
-                        .opacity(0.5)
-                        .cornerRadius(20)
-                }
-
-                VStack(alignment: .leading) {
-                    Text(item.name)
-                        .font(.headline)
-                    Text(item.description)
-                        .font(.subheadline)
-                        .foregroundColor(.gray)
+        NavigationStack{
+            VStack{
+                List(projectsVM.projects) { item in
+                    NavigationLink{
+                        ProjectDetail(item: item)
+                    } label: {
+                        ProjectRow(item: item)
+                    }
+                    
                 }
             }
-            .padding()
-            .background(Color.white)
-            .cornerRadius(20)
-            .shadow(radius: 1)
+            .navigationTitle("Eventos")
         }
     }
 }
 
 #Preview {
-    ContentView()
+    ProjectListView()
 }
