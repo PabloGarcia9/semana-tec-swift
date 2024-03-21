@@ -24,6 +24,7 @@
 		FBBA2EE82BAC9F96001455B1 /* ExpensesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBA2EE72BAC9F96001455B1 /* ExpensesView.swift */; };
 		FBBA2EEA2BAC9FA0001455B1 /* PeopleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBA2EE92BAC9FA0001455B1 /* PeopleView.swift */; };
 		FBBA2EED2BACA09F001455B1 /* Expense.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBA2EEC2BACA09F001455B1 /* Expense.swift */; };
+		FBBA2EF02BACACBC001455B1 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = FBBA2EEF2BACACBC001455B1 /* SwiftUICharts */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBBA2EF02BACACBC001455B1 /* SwiftUICharts in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,6 +164,9 @@
 			dependencies = (
 			);
 			name = "semana-tec";
+			packageProductDependencies = (
+				FBBA2EEF2BACACBC001455B1 /* SwiftUICharts */,
+			);
 			productName = "semana-tec";
 			productReference = FB13A8C32BAA00C70086365F /* semana-tec.app */;
 			productType = "com.apple.product-type.application";
@@ -190,6 +195,9 @@
 				Base,
 			);
 			mainGroup = FB13A8BA2BAA00C70086365F;
+			packageReferences = (
+				FBBA2EEE2BACACBC001455B1 /* XCRemoteSwiftPackageReference "ChartView" */,
+			);
 			productRefGroup = FB13A8C42BAA00C70086365F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -434,6 +442,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FBBA2EEE2BACACBC001455B1 /* XCRemoteSwiftPackageReference "ChartView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppPear/ChartView.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FBBA2EEF2BACACBC001455B1 /* SwiftUICharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FBBA2EEE2BACACBC001455B1 /* XCRemoteSwiftPackageReference "ChartView" */;
+			productName = SwiftUICharts;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FB13A8BB2BAA00C70086365F /* Project object */;
 }
