@@ -38,5 +38,5 @@ struct ProjectRow: View {
 }
 
 #Preview {
-    ProjectRow(item: project(id: 1, name: "Viaje a cancun", people: ["Juan", "Carlos"], description: "2024", backgroundColor: ".red", imageURL: ""))
+    ProjectRow(item: project(id: 1, name: "Viaje a cancun", people: [1], description: "2024", backgroundColor: ".red", imageURL: ""))
 }

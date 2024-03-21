@@ -10,7 +10,7 @@ import Foundation
 struct project: Decodable, Identifiable{
     var id: Int
     var name: String
-    var people: [String]
+    var people: [Int]
     var description: String
     var backgroundColor: String
     var imageURL: String

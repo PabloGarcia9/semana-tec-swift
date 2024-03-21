@@ -14,9 +14,11 @@
 		FB6A69C32BAB497F004BC08B /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6A69C22BAB497F004BC08B /* Project.swift */; };
 		FBBA2ED12BAB4A92001455B1 /* ProjectViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBA2ED02BAB4A92001455B1 /* ProjectViewModel.swift */; };
 		FBBA2ED32BAB4CDA001455B1 /* ProjectData.json in Resources */ = {isa = PBXBuildFile; fileRef = FBBA2ED22BAB4CDA001455B1 /* ProjectData.json */; };
-		FBBA2ED92BAB60BF001455B1 /* ProjectHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBA2ED82BAB60BF001455B1 /* ProjectHomeView.swift */; };
 		FBBA2EDB2BAC8AE3001455B1 /* ProjectRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBA2EDA2BAC8AE3001455B1 /* ProjectRow.swift */; };
 		FBBA2EDD2BAC8C09001455B1 /* ProjectDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBA2EDC2BAC8C09001455B1 /* ProjectDetail.swift */; };
+		FBBA2EE02BAC8CF0001455B1 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBA2EDF2BAC8CF0001455B1 /* Person.swift */; };
+		FBBA2EE22BAC8DF9001455B1 /* PersonData.json in Resources */ = {isa = PBXBuildFile; fileRef = FBBA2EE12BAC8DF9001455B1 /* PersonData.json */; };
+		FBBA2EE42BAC8EDB001455B1 /* PersonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBA2EE32BAC8EDB001455B1 /* PersonViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,9 +30,11 @@
 		FB6A69C22BAB497F004BC08B /* Project.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project.swift; sourceTree = "<group>"; };
 		FBBA2ED02BAB4A92001455B1 /* ProjectViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectViewModel.swift; sourceTree = "<group>"; };
 		FBBA2ED22BAB4CDA001455B1 /* ProjectData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ProjectData.json; sourceTree = "<group>"; };
-		FBBA2ED82BAB60BF001455B1 /* ProjectHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectHomeView.swift; sourceTree = "<group>"; };
 		FBBA2EDA2BAC8AE3001455B1 /* ProjectRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectRow.swift; sourceTree = "<group>"; };
 		FBBA2EDC2BAC8C09001455B1 /* ProjectDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectDetail.swift; sourceTree = "<group>"; };
+		FBBA2EDF2BAC8CF0001455B1 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		FBBA2EE12BAC8DF9001455B1 /* PersonData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = PersonData.json; sourceTree = "<group>"; };
+		FBBA2EE32BAC8EDB001455B1 /* PersonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +88,7 @@
 		FB6A69C12BAB496C004BC08B /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				FBBA2EDE2BAC8CDE001455B1 /* Person */,
 				FBBA2ECF2BAB4A82001455B1 /* Project */,
 			);
 			path = Model;
@@ -102,11 +107,20 @@
 		FBBA2ED62BAB5FAA001455B1 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				FBBA2ED82BAB60BF001455B1 /* ProjectHomeView.swift */,
 				FBBA2EDA2BAC8AE3001455B1 /* ProjectRow.swift */,
 				FBBA2EDC2BAC8C09001455B1 /* ProjectDetail.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		FBBA2EDE2BAC8CDE001455B1 /* Person */ = {
+			isa = PBXGroup;
+			children = (
+				FBBA2EDF2BAC8CF0001455B1 /* Person.swift */,
+				FBBA2EE12BAC8DF9001455B1 /* PersonData.json */,
+				FBBA2EE32BAC8EDB001455B1 /* PersonViewModel.swift */,
+			);
+			path = Person;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,6 +181,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBBA2EE22BAC8DF9001455B1 /* PersonData.json in Resources */,
 				FB13A8CE2BAA00CA0086365F /* Preview Assets.xcassets in Resources */,
 				FB13A8CB2BAA00CA0086365F /* Assets.xcassets in Resources */,
 				FBBA2ED32BAB4CDA001455B1 /* ProjectData.json in Resources */,
@@ -182,10 +197,11 @@
 			files = (
 				FBBA2EDB2BAC8AE3001455B1 /* ProjectRow.swift in Sources */,
 				FBBA2ED12BAB4A92001455B1 /* ProjectViewModel.swift in Sources */,
-				FBBA2ED92BAB60BF001455B1 /* ProjectHomeView.swift in Sources */,
+				FBBA2EE42BAC8EDB001455B1 /* PersonViewModel.swift in Sources */,
 				FBBA2EDD2BAC8C09001455B1 /* ProjectDetail.swift in Sources */,
 				FB13A8C92BAA00C70086365F /* ContentView.swift in Sources */,
 				FB13A8C72BAA00C70086365F /* semana_tecApp.swift in Sources */,
+				FBBA2EE02BAC8CF0001455B1 /* Person.swift in Sources */,
 				FB6A69C32BAB497F004BC08B /* Project.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
