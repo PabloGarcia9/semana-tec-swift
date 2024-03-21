@@ -2,9 +2,33 @@
         {
             "id": 1,
             "name": "Viaje a Cancun 🏖️",
-            "people": ["Juan", "Andres", "Esteban"],
+            "people": [1, 4, 5],
             "description": "Semana santa 2024",
             "backgroundColor": ".blue",
             "imageURL": "https://www.traveloffpath.com/wp-content/uploads/2023/01/Aerial-View-Of-The-Northern-Side-Of-Cancun-Hotel-Zone-Cancun-Riviera-Maya-Quintana-Roo-State-In-Mexico.jpg.webp"
+        },
+        {
+            "id": 2,
+            "name": "Cumpleaños de Juan 🎉",
+            "people": [1, 3, 2, 5, 4],
+            "description": "Comida sorpresa y fiesta",
+            "backgroundColor": ".red",
+            "imageURL": "https://thumbs.dreamstime.com/b/happy-birthday-party-group-friends-cake-wishes-girl-candles-room-175978427.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Boliche 🎳",
+            "people": [1, 3, 4],
+            "description": "Salida de fin de semana",
+            "backgroundColor": ".blue",
+            "imageURL": "https://previews.123rf.com/images/kzenon/kzenon1203/kzenon120300353/12904436-grupo-de-cuatro-amigos-en-un-boliche-de-divertirse-la-celebraci%C3%B3n-de-sus-bolas-de-bowling.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Hike de Marzo ☀️",
+            "people": [1, 4, 5],
+            "description": "Hike en Parque Ecológico Chipinque",
+            "backgroundColor": ".red",
+            "imageURL": "https://www.zannavandijk.co.uk/wp-content/uploads/2022/01/Hiking-in-Monterrey.jpg"
         }
 ]
