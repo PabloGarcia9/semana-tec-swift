@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		FB13A8C72BAA00C70086365F /* semana_tecApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB13A8C62BAA00C70086365F /* semana_tecApp.swift */; };
-		FB13A8C92BAA00C70086365F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB13A8C82BAA00C70086365F /* ContentView.swift */; };
+		FB13A8C92BAA00C70086365F /* ProjectListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB13A8C82BAA00C70086365F /* ProjectListView.swift */; };
 		FB13A8CB2BAA00CA0086365F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB13A8CA2BAA00CA0086365F /* Assets.xcassets */; };
 		FB13A8CE2BAA00CA0086365F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB13A8CD2BAA00CA0086365F /* Preview Assets.xcassets */; };
 		FB6A69C32BAB497F004BC08B /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6A69C22BAB497F004BC08B /* Project.swift */; };
@@ -19,12 +19,15 @@
 		FBBA2EE02BAC8CF0001455B1 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBA2EDF2BAC8CF0001455B1 /* Person.swift */; };
 		FBBA2EE22BAC8DF9001455B1 /* PersonData.json in Resources */ = {isa = PBXBuildFile; fileRef = FBBA2EE12BAC8DF9001455B1 /* PersonData.json */; };
 		FBBA2EE42BAC8EDB001455B1 /* PersonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBA2EE32BAC8EDB001455B1 /* PersonViewModel.swift */; };
+		FBBA2EE82BAC9F96001455B1 /* ExpensesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBA2EE72BAC9F96001455B1 /* ExpensesView.swift */; };
+		FBBA2EEA2BAC9FA0001455B1 /* PeopleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBA2EE92BAC9FA0001455B1 /* PeopleView.swift */; };
+		FBBA2EED2BACA09F001455B1 /* Expense.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBA2EEC2BACA09F001455B1 /* Expense.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FB13A8C32BAA00C70086365F /* semana-tec.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "semana-tec.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB13A8C62BAA00C70086365F /* semana_tecApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = semana_tecApp.swift; sourceTree = "<group>"; };
-		FB13A8C82BAA00C70086365F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FB13A8C82BAA00C70086365F /* ProjectListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectListView.swift; sourceTree = "<group>"; };
 		FB13A8CA2BAA00CA0086365F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB13A8CD2BAA00CA0086365F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FB6A69C22BAB497F004BC08B /* Project.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project.swift; sourceTree = "<group>"; };
@@ -35,6 +38,9 @@
 		FBBA2EDF2BAC8CF0001455B1 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		FBBA2EE12BAC8DF9001455B1 /* PersonData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = PersonData.json; sourceTree = "<group>"; };
 		FBBA2EE32BAC8EDB001455B1 /* PersonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonViewModel.swift; sourceTree = "<group>"; };
+		FBBA2EE72BAC9F96001455B1 /* ExpensesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpensesView.swift; sourceTree = "<group>"; };
+		FBBA2EE92BAC9FA0001455B1 /* PeopleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleView.swift; sourceTree = "<group>"; };
+		FBBA2EEC2BACA09F001455B1 /* Expense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expense.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +76,7 @@
 				FBBA2ED62BAB5FAA001455B1 /* Views */,
 				FB6A69C12BAB496C004BC08B /* Model */,
 				FB13A8C62BAA00C70086365F /* semana_tecApp.swift */,
-				FB13A8C82BAA00C70086365F /* ContentView.swift */,
+				FB13A8C82BAA00C70086365F /* ProjectListView.swift */,
 				FB13A8CA2BAA00CA0086365F /* Assets.xcassets */,
 				FB13A8CC2BAA00CA0086365F /* Preview Content */,
 			);
@@ -88,6 +94,7 @@
 		FB6A69C12BAB496C004BC08B /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				FBBA2EEB2BACA08C001455B1 /* Expense */,
 				FBBA2EDE2BAC8CDE001455B1 /* Person */,
 				FBBA2ECF2BAB4A82001455B1 /* Project */,
 			);
@@ -109,6 +116,8 @@
 			children = (
 				FBBA2EDA2BAC8AE3001455B1 /* ProjectRow.swift */,
 				FBBA2EDC2BAC8C09001455B1 /* ProjectDetail.swift */,
+				FBBA2EE72BAC9F96001455B1 /* ExpensesView.swift */,
+				FBBA2EE92BAC9FA0001455B1 /* PeopleView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -121,6 +130,14 @@
 				FBBA2EE32BAC8EDB001455B1 /* PersonViewModel.swift */,
 			);
 			path = Person;
+			sourceTree = "<group>";
+		};
+		FBBA2EEB2BACA08C001455B1 /* Expense */ = {
+			isa = PBXGroup;
+			children = (
+				FBBA2EEC2BACA09F001455B1 /* Expense.swift */,
+			);
+			path = Expense;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,13 +212,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBBA2EED2BACA09F001455B1 /* Expense.swift in Sources */,
 				FBBA2EDB2BAC8AE3001455B1 /* ProjectRow.swift in Sources */,
+				FBBA2EEA2BAC9FA0001455B1 /* PeopleView.swift in Sources */,
 				FBBA2ED12BAB4A92001455B1 /* ProjectViewModel.swift in Sources */,
 				FBBA2EE42BAC8EDB001455B1 /* PersonViewModel.swift in Sources */,
 				FBBA2EDD2BAC8C09001455B1 /* ProjectDetail.swift in Sources */,
-				FB13A8C92BAA00C70086365F /* ContentView.swift in Sources */,
+				FB13A8C92BAA00C70086365F /* ProjectListView.swift in Sources */,
 				FB13A8C72BAA00C70086365F /* semana_tecApp.swift in Sources */,
 				FBBA2EE02BAC8CF0001455B1 /* Person.swift in Sources */,
+				FBBA2EE82BAC9F96001455B1 /* ExpensesView.swift in Sources */,
 				FB6A69C32BAB497F004BC08B /* Project.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

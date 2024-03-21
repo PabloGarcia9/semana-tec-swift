@@ -12,7 +12,18 @@ struct ProjectDetail: View {
     var personVM = PersonViewModel()
     
     var body: some View {
-        Text(item.name)
+        NavigationStack{
+            TabView{
+                ExpensesView()
+                    .tabItem{
+                        Label("Gastos", systemImage: "dollarsign.circle")
+                    }
+                PeopleView()
+                    .tabItem{
+                        Label("Integrantes", systemImage: "person.fill")
+                    }
+            }
+        }
     }
 }
 
