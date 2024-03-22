@@ -1,86 +1,100 @@
 [
         {
             "id": 1,
-            "idProject": 1
-            "idPerson": 1
+            "idProject": 1,
+            "idPerson": 1,
+            "name": "Juan",
             "value": 200
         },
         {
             "id": 2,
-            "idProject": 1
-            "idPerson": 4
+            "idProject": 1,
+            "idPerson": 4,
+            "name": "Diego",
             "value": 250
         },
         {
             "id": 3,
-            "idProject": 1
-            "idPerson": 5
+            "idProject": 1,
+            "idPerson": 5,
+            "name": "Regina",
             "value": 300
         },
         {
             "id": 4,
-            "idProject": 2
-            "idPerson": 1
+            "idProject": 2,
+            "idPerson": 1,
+            "name": "Juan",
             "value": 300
         },
         {
             "id": 5,
-            "idProject": 2
-            "idPerson": 2
+            "idProject": 2,
+            "idPerson": 2,
+            "name": "Jose",
             "value": 300
         },
         {
             "id": 6,
-            "idProject": 2
-            "idPerson": 3
+            "idProject": 2,
+            "idPerson": 3,
+            "name": "Fernanda",
             "value": 300
         },
         {
             "id": 7,
-            "idProject": 2
-            "idPerson": 4
+            "idProject": 2,
+            "idPerson": 4,
+            "name": "Diego",
             "value": 150
         },
         {
             "id": 8,
-            "idProject": 2
-            "idPerson": 5
+            "idProject": 2,
+            "idPerson": 5,
+            "name": "Regina",
             "value": 550
         },
         {
             "id": 9,
-            "idProject": 3
-            "idPerson": 1
+            "idProject": 3,
+            "idPerson": 1,
+            "name": "Juan",
             "value": 300
         },
         {
             "id": 10,
-            "idProject": 3
-            "idPerson": 3
+            "idProject": 3,
+            "idPerson": 3,
+            "name": "Fernanda",
             "value": 100
         },
         {
             "id": 11,
-            "idProject": 3
-            "idPerson": 4
+            "idProject": 3,
+            "idPerson": 4,
+            "name": "Diego",
             "value": 425
         },
         {
             "id": 12,
-            "idProject": 4
-            "idPerson": 1
+            "idProject": 4,
+            "idPerson": 1,
+            "name": "Juan",
             "value": 50
         },
         {
             "id": 13,
-            "idProject": 4
-            "idPerson": 4
+            "idProject": 4,
+            "idPerson": 4,
+            "name": "Diego",
             "value": 220
         },
         {
             "id": 14,
-            "idProject": 4
-            "idPerson": 5
+            "idProject": 4,
+            "idPerson": 5,
+            "name": "Regina",
             "value": 175
         }
 ]

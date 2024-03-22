@@ -8,19 +8,14 @@
 import SwiftUI
 
 struct ProjectDetail: View {
-    var item : project
-    var personVM = PersonViewModel()
+    var item: project
     
     var body: some View {
         NavigationStack{
             TabView{
-                ExpensesView()
+                ExpensesView(project: item)
                     .tabItem{
                         Label("Gastos", systemImage: "dollarsign.circle")
-                    }
-                PeopleView()
-                    .tabItem{
-                        Label("Integrantes", systemImage: "person.fill")
                     }
             }
         }
